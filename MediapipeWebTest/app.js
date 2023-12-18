@@ -30,8 +30,8 @@ async function createFaceLandmarker() {
             delegate: "GPU"
         },
         outputFaceBlendshapes: true,
-        runningMode,
-        refineLandmarks: true,
+        runningMode: VIDEO,
+        //refineLandmarks: true,
         numFaces: 1
     });
 }
