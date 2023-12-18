@@ -34,7 +34,6 @@ async function createFaceLandmarker() {
         refineLandmarks: true,
         numFaces: 1
     });
-    demosSection.classList.remove("invisible");
 }
 createFaceLandmarker();
 // Demo 2: Continuously grab image from webcam stream and detect it.
